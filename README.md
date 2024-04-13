@@ -1,6 +1,8 @@
 # Pomodoro
 
 Pomodoro is a task management app based on the task and break timers which lets you do work efficiently while keeping track of the time.
+![Screenshot](screenshots/example.png)
+
 
 <div style="display:flex;">
 <img src="screenshots/Capture.PNG" alt="Screenshot" width="400" >
