@@ -8,16 +8,19 @@ Pomodoro is a task management app based on the task and break timers which lets 
 <img src="screenshots/Capture3.PNG" alt="Screenshot" width="400" >
 </div>
 
+
 <div style="display:flex;">
 <img src="screenshots/Capture4.PNG" alt="Screenshot" width="400" >
 <img src="screenshots/Capture5.PNG" alt="Screenshot" width="400" >
 <img src="screenshots/Capture6.PNG" alt="Screenshot" width="400" >
 </div>
 
+
 <div style="display:flex;">
 <img src="screenshots/Capture7.PNG" alt="Screenshot" width="400" >
 <img src="screenshots/Capture8.PNG" alt="Screenshot" width="400" >
 </div>
+
 
 <div style="display:flex;">
 <img src="screenshots/Capture9.PNG" alt="Screenshot" width="400" >
