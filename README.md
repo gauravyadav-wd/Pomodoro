@@ -9,16 +9,17 @@ Pomodoro is a task management app based on the task and break timers which lets 
 
 **Break Modes:**
 <div style="display:flex;">
-<img src="screenshots/Capture4.PNG" alt="Screenshot" width="400" >
-<img src="screenshots/Capture5.PNG" alt="Screenshot" width="400" >
-<img src="screenshots/Capture6.PNG" alt="Screenshot" width="400" >
+<img src="screenshots/Capture4.PNG" alt="Screenshot" width="390" >
+<img src="screenshots/Capture5.PNG" alt="Screenshot" width="390" >
+<img src="screenshots/Capture6.PNG" alt="Screenshot" width="390" >
 </div>
 <br>
 
+**Other Screenshots:**
 <div style="display:flex;">
-<img src="screenshots/Capture7.PNG" alt="Screenshot" width="400" >
-<img src="screenshots/Capture8.PNG" alt="Screenshot" width="400" >
-<img src="screenshots/Capture9.PNG" alt="Screenshot" width="400" >
+<img src="screenshots/Capture7.PNG" alt="Screenshot" width="390" >
+<img src="screenshots/Capture8.PNG" alt="Screenshot" width="390" >
+<img src="screenshots/Capture9.PNG" alt="Screenshot" width="390" >
 </div>
 
 ## Objectives
