@@ -1,0 +1,408 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fefefe;
+}
+
+.container {
+  min-height: 100vh;
+  /* display: flex; */
+}
+.columns {
+  display: flex;
+}
+
+.column2 {
+  width: 70%;
+  padding: 30px 100px;
+}
+.column3 {
+  /* width: 40%; */
+  padding: 30px 0;
+}
+
+.column1 button {
+  display: block;
+  font-size: 15px;
+  padding: 20px 30px;
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.page-btn {
+  align-self: stretch;
+}
+
+.header {
+  /* background-color: #f8f8f8; */
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 1px 6px 0px;
+}
+
+.header-hr {
+  margin: 0px;
+}
+
+.logo {
+  margin: 5px 20px;
+}
+
+.active-page {
+  background-color: black;
+  color: white;
+}
+
+.active-tab {
+  color: black;
+  background-color: #f6b816;
+  border-radius: 20px;
+  padding: 5px 0;
+  /* padding: 5px 5px; */
+}
+
+.primary-heading {
+  font-size: 35px;
+}
+
+.greet-heading {
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+.search-box {
+  padding: 15px 10px;
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f5f5f5;
+}
+
+.btn-group {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 20px;
+  width: 400px;
+  margin-top: 15px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #606060;
+}
+
+.tab-btn {
+  font-size: 16px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.card {
+  min-height: 150px;
+  min-width: 350px;
+  background-color: white;
+  padding: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 3px 14px 0px;
+  border-radius: 10px;
+  margin-top: 15px;
+  position: relative;
+}
+
+.task-1 h5 {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.task-1 p {
+  margin-bottom: 5px;
+  margin-top: 0;
+  opacity: 0.8;
+}
+
+.profile-data img {
+  border-radius: 50%;
+  object-fit: fill;
+}
+
+.profile-data {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-right: 20px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.noti-icon {
+  cursor: pointer;
+}
+
+.email-icon {
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.project-timer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.add-task button {
+  background-color: black;
+  padding: 12px 30px;
+  color: white;
+  border-radius: 10px;
+}
+
+.current-date {
+  font-size: 16px;
+}
+
+.current-date span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.timer-span {
+  /* background-color: black; */
+  /* color: white; */
+  font-size: 14px;
+  padding: 2px;
+  margin-left: 2px;
+  font-weight: bold;
+}
+
+.tasks li {
+  font-size: 15px;
+  margin: 5px;
+  /* list-style: none; */
+}
+
+.play-btn {
+  color: black;
+}
+
+.start-timer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+}
+
+.start-timer p {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+.play-btn {
+  height: 35px;
+  width: 90px;
+  background-color: #f6b816;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.completed-tasks {
+  /* position: absolute; */
+  right: 10px;
+  color: rgb(0, 185, 0);
+  font-style: italic;
+  text-align: center;
+  /* bottom: 10px; */
+}
+.completed-task {
+  color: rgb(0, 185, 0);
+  font-style: italic;
+}
+
+.completed-card hr {
+  margin: 10px;
+}
+
+.total-time {
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  display: inline;
+  padding: 5px 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.not-completed-task {
+  color: red;
+  font-style: italic;
+}
+
+.not-completed-tasks {
+  color: red;
+  text-align: center;
+  font-style: italic;
+}
+
+.all-tasks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* background-color: #f6b816; */
+}
+
+.remaining-tasks-group p,
+.remaining-tasks-group h5,
+.completed-tasks-group p,
+.completed-tasks-group h5,
+.incompleted-tasks-group p,
+.incompleted-tasks-group h5 {
+  width: 300px;
+}
+
+.remaining-tasks-group li {
+  width: 300px;
+}
+
+.card-sep {
+  margin: 10px;
+}
+
+.add-card-btn {
+  background-color: #f2f2f2;
+  transition: 0.3s all;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+}
+
+.add-card-btn:hover {
+  background-color: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 3px 14px 0px;
+}
+
+.no-task-card {
+  min-height: 15px;
+  min-width: 350px;
+  background-color: white;
+  padding: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 3px 14px 0px;
+  border-radius: 10px;
+  margin-top: 15px;
+  position: relative;
+}
+
+.login-btn {
+  margin-right: 15px;
+  font-size: 16px;
+  background-color: #f6b816;
+  color: black;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  z-index: 999;
+}
+
+.logo-container select {
+  align-self: center;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.mode1 {
+  background-color: #f6b816;
+}
+
+.designation {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.switch-mode {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* MODES */
+
+.mode2-container {
+  background-color: #191919;
+  color: white;
+}
+
+.mode2-container .tab-btn:not(.mode2-active-tab) {
+  background-color: #191919;
+  color: white;
+}
+
+.mode2-container .user,
+.mode2-container .logo-container {
+  /* background-color: #191919; */
+  color: white;
+}
+
+.mode2-container .card,
+.mode2-container .no-task-card {
+  background-color: #303030;
+  box-shadow: none;
+  color: white;
+}
+
+.mode2-container .play-btn {
+  /* background-color: #303030; */
+  background-color: #191919;
+  color: white;
+}
+
+.mode2-container .add-card-btn {
+  background-color: #303030;
+}
+
+.mode2-container .add-card-btn:hover {
+  background-color: #191919;
+}
+
+.mode2-active-tab {
+  background-color: #303030;
+  color: white;
+}
+
+/* .mode2-login-btn {
+  background-color: #6f6345;
+  color: white;
+} */
